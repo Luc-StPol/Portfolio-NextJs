@@ -8,13 +8,13 @@ export default function Hero() {
         <h2 className="font-caption text-4xl font-bold">Luc Saint Pol</h2>
         <h3 className="text-3xl font-caption">Developpeur Web</h3>
         <p className="mt-3">
-          Salut ! Je m'appelle Luc, et je suis un développeur web passionné par
-          la création d'applications dynamiques et de sites web sur mesure.
-          Actuellement en train de finaliser un diplôme de Développeur Web
-          JavaScript , j'ai déjà acquis une solide expérience en React, Node.js,
-          et aussi PHP, que j'utilise pour donner vie à mes idées. J’ai réalisé
-          quelques projets durant ma formation, que je vous invite à découvrir
-          juste en dessous.
+          Salut ! Je m&apos;appelle Luc, et je suis un développeur web passionné
+          par la création d&apos; applications dynamiques et de sites web sur
+          mesure. Actuellement en train de finaliser un diplôme de Développeur
+          Web JavaScript , j&apos;ai déjà acquis une solide expérience en React,
+          Node.js, et aussi PHP, que j&apos;utilise pour donner vie à mes idées.
+          J&apos;ai réalisé quelques projets durant ma formation, que je vous
+          invite à découvrir juste en dessous.
         </p>
       </div>
       <div className="flex-1 ml-12 ">

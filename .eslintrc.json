@@ -23,7 +23,8 @@
   "rules": {
     "prettier/prettier": ["error"], // Assure que les erreurs de Prettier apparaissent comme des erreurs ESLint
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/prop-types": ["off", { "ignore": ["node_modules", "shadcn/ui"] }]
   },
   "settings": {
     "react": {
