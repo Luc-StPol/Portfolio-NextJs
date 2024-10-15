@@ -1,0 +1,23 @@
+{
+  "front": [
+    "https://cdn.svgporn.com/logos/javascript.svg",
+    "https://cdn.svgporn.com/logos/react.svg",
+    "https://cdn.svgporn.com/logos/bootstrap.svg"
+  ],
+
+  "back": [
+    "https://cdn.svgporn.com/logos/nodejs-icon.svg",
+    "https://cdn.svgporn.com/logos/mongodb-icon.svg",
+    "https://cdn.svgporn.com/logos/express.svg",
+    "https://cdn.svgporn.com/logos/php.svg"
+  ],
+
+  "wip": ["Next.Js", "tailwindcss", "MySQL", "Github"],
+
+  "wipSkillIcon": [
+    "https://cdn.svgporn.com/logos/nextjs-icon.svg",
+    "https://cdn.svgporn.com/logos/tailwindcss-icon.svg",
+    "https://cdn.svgporn.com/logos/mysql.svg",
+    "https://cdn.svgporn.com/logos/github-icon.svg"
+  ]
+}
