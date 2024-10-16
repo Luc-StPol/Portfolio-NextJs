@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 py-4 flex justify-between pt-4 border-b-2 bg-background px-12">
+    <header className="sticky top-0 py-4 flex justify-between pt-4 border-b-2 bg-background px-12 z-50">
       <a href="">
         <h1 className="text-lg font-bold text-primary-foreground max-md:hidden">
           {' '}

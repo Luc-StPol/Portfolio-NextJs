@@ -2,14 +2,19 @@ import Image from 'next/image';
 
 import styles from '../style/cercleIcon.module.css';
 
+interface Skill {
+  svg: string;
+  stackName: string;
+}
 interface propsSkill {
-  skill: string[];
+  skill: Skill[];
   stack: string;
 }
 
 export default function Skills(props: propsSkill) {
   console.log('skills');
   const icons = props.skill;
+  console.log(icons);
   return (
     <div className="md:mx-24 m-10" id="skills">
       <div className={styles.circle}>
@@ -24,7 +29,8 @@ export default function Skills(props: propsSkill) {
               } as React.CSSProperties
             }
           >
-            <Image src={icon} alt="icon" width={60} height={60} />
+            <Image src={icon.svg} alt="icon" width={60} height={60} />
+            <div className={styles.tooltip}>{icon.stackName}</div>
           </div>
         ))}
       </div>
