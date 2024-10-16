@@ -4,30 +4,37 @@
   height: 243px;
   margin: 50px auto;
   border-radius: 50%;
-  border: 1px dashed #000; /* Cercle en pointillé avec bordure noire */
+  border: 1px dashed #000;
+  /* Cercle en pointillé avec bordure noire */
   margin: 50px auto;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 .circle::before {
   content: '';
   position: absolute;
-  width: 50px; /* Diamètre du rond central */
+  width: 50px;
+  /* Diamètre du rond central */
   height: 50px;
-  background: #000; /* Couleur du rond central */
+  background: #000;
+  /* Couleur du rond central */
   border-radius: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centrer le rond */
+  transform: translate(-50%, -50%);
+  /* Centrer le rond */
 }
 
 .icon {
   position: absolute;
-  width: 60px; /* Taille des icônes */
+  width: 60px;
+  /* Taille des icônes */
   height: 60px;
   top: 50%;
   left: 50%;
-  transform-origin: 0 0; /* Distance depuis le centre du cercle */
+  transform-origin: 0 0;
+  /* Distance depuis le centre du cercle */
   transform: rotate(calc(var(--i) * 360deg / var(--total))) translate(100px);
 }
 
@@ -40,4 +47,26 @@
   background-color: white;
   padding: 5px;
   box-shadow: 0 0 5px 3px gray;
+}
+
+.icon .tooltip {
+  position: absolute;
+  bottom: 80px;
+  /* Distance au-dessus de l'icône */
+  left: 50%;
+  transform: rotate(calc(-1 * (var(--i) * 360deg / var(--total))));
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+/* Afficher le tooltip au hover */
+.icon:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
 }

@@ -1,15 +1,29 @@
 {
   "front": [
-    "https://cdn.svgporn.com/logos/javascript.svg",
-    "https://cdn.svgporn.com/logos/react.svg",
-    "https://cdn.svgporn.com/logos/bootstrap.svg"
+    {"svg":"https://cdn.svgporn.com/logos/javascript.svg",
+    "stackName":"JavaScript"
+  },
+    {"svg":"https://cdn.svgporn.com/logos/react.svg",
+    "stackName":"React"
+  },
+    {"svg":"https://cdn.svgporn.com/logos/bootstrap.svg",
+  "stackName":"Bootstrap"
+  }
   ],
 
   "back": [
-    "https://cdn.svgporn.com/logos/nodejs-icon.svg",
-    "https://cdn.svgporn.com/logos/mongodb-icon.svg",
-    "https://cdn.svgporn.com/logos/express.svg",
-    "https://cdn.svgporn.com/logos/php.svg"
+    {"svg":"https://cdn.svgporn.com/logos/nodejs-icon.svg",
+  "stackName":"Node.Js"
+  },
+    {"svg":"https://cdn.svgporn.com/logos/mongodb-icon.svg",
+  "stackName":"MongoDb"
+},
+   {"svg":"https://cdn.svgporn.com/logos/express.svg",
+  "stackName":"Express"
+},
+    {"svg":"https://cdn.svgporn.com/logos/php.svg",
+  "stackName":"Php"
+}
   ],
 
   "wip": ["Next.Js", "tailwindcss", "MySQL", "Github"],

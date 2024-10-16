@@ -28,6 +28,7 @@ import {
 } from '@/components/ui/pagination';
 import { DialogTitle } from '@radix-ui/react-dialog';
 import SkillsArray from './SkillsArray';
+import { useSwipeable } from 'react-swipeable';
 
 interface Project {
   title: string;
@@ -44,6 +45,18 @@ interface Project {
 export default function Status() {
   const [isActive, setActive] = useState(1);
 
+  const handlers = useSwipeable({
+    onSwiped: (e) => {
+      console.log('User Swiped', e.dir);
+      if (e.dir === 'Left' && isActive < 3) {
+        setActive(isActive + 1);
+      }
+      if (e.dir === 'Right' && isActive > 0) {
+        setActive(isActive - 1);
+      }
+    },
+  });
+
   return (
     <Section className="max-lg:flex-col items-start">
       <h2
@@ -55,7 +68,7 @@ export default function Status() {
       <div className="flex max-lg:flex-col max-lg:items-center flex-wrap gap-2 ">
         {projects.map((project: Project, i) => (
           <Dialog key={i}>
-            <DialogTrigger>
+            <DialogTrigger onClick={() => setActive(1)}>
               <Card className="hover:bg-slate-200 w-96 h-96">
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
@@ -73,7 +86,10 @@ export default function Status() {
                 </CardContent>
               </Card>
             </DialogTrigger>
-            <DialogContent className="  h-full md:max-w-screen-sm md:h-5/6 overflow-auto flex flex-col justify-between">
+            <DialogContent
+              className="  md:max-w-screen-sm h-5/6 overflow-auto flex flex-col justify-between"
+              {...handlers}
+            >
               <DialogHeader>
                 <DialogTitle className="text-center">
                   {project.title}

@@ -10,8 +10,11 @@ export default function Hero() {
         <p className="mt-3">
           Salut ! Je m&apos;appelle Luc, et je suis un développeur web passionné
           par la création d&apos; applications dynamiques et de sites web sur
-          mesure. Actuellement en train de finaliser un diplôme de Développeur
-          Web JavaScript , j&apos;ai déjà acquis une solide expérience en React,
+          mesure.
+        </p>
+        <p className="mt-2">
+          Actuellement en train de finaliser un diplôme de Développeur Web
+          JavaScript , j&apos;ai déjà acquis une solide expérience en React,
           Node.js, et aussi PHP, que j&apos;utilise pour donner vie à mes idées.
           J&apos;ai réalisé quelques projets durant ma formation, que je vous
           invite à découvrir juste en dessous.
