@@ -11,7 +11,7 @@ export default function Skills(props: propsSkill) {
   console.log('skills');
   const icons = props.skill;
   return (
-    <div className="mx-24" id="skills">
+    <div className="md:mx-24 m-10" id="skills">
       <div className={styles.circle}>
         {icons.map((icon, i) => (
           <div
@@ -28,7 +28,7 @@ export default function Skills(props: propsSkill) {
           </div>
         ))}
       </div>
-      <h3 className="text-center text-lg font-bold p-4 bg-gradient-to-r from-gray-50 to-gray-300">
+      <h3 className="text-center text-lg font-bold p-4 bg-gradient-to-r from-gray-50 to-gray-300 max-md:my-5">
         {props.stack}
       </h3>
     </div>

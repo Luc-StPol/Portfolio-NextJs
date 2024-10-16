@@ -46,7 +46,7 @@ export default function Contact() {
         <h2 className="text-3xl font-bold border-t-4 inline-block border-white mt-5 ">
           Me contacter
         </h2>
-        <div className="flex justify-between mx-2 items-center">
+        <div className="flex justify-between mx-2 items-center max-md:flex-col">
           <div className="flex m-4 items-center">
             <Image
               className="bg-white rounded-lg"

@@ -18,15 +18,18 @@ export default function SkillsWip() {
           J'ai travailler avec
         </h3>
       </div>
-      <ul className="flex justify-around">
+      <ul className="flex justify-around flex-wrap">
         {skills.map((skill, i) => (
-          <li key={i} className=" flex flex-col items-center m-5">
+          <li
+            key={i}
+            className=" flex flex-col items-center md:m-5  mt-7 max-md:w-1/2"
+          >
             <Image
               src={wipSkill.wipSkillIcon[i]}
               alt="icon"
               width={50}
               height={50}
-              className="m-4"
+              className="m-4 "
             />
             <p className="text-bold text-lg">{skill}</p>
           </li>

@@ -52,7 +52,7 @@ export default function Status() {
       >
         Mes Projets
       </h2>
-      <div className="flex max-lg:flex-col flex-wrap gap-2">
+      <div className="flex max-lg:flex-col max-lg:items-center flex-wrap gap-2 ">
         {projects.map((project: Project, i) => (
           <Dialog key={i}>
             <DialogTrigger>

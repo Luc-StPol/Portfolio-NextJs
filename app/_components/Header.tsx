@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 py-4 flex justify-between mt-3 mx-12">
+    <header className="sticky top-0 py-4 flex justify-between pt-4 border-b-2 bg-background px-12">
       <a href="">
-        <h1 className="text-lg font-bold text-primary-foreground">
+        <h1 className="text-lg font-bold text-primary-foreground max-md:hidden">
           {' '}
           LucSP.com
         </h1>
