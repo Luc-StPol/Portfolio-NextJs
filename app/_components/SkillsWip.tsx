@@ -11,8 +11,8 @@ interface wipSkill {
 export default function SkillsWip() {
   const skills = wipSkill.wip;
   return (
-    <Section className="flex flex-col bg-gray-100 p-8">
-      <div className="flex items-center">
+    <Section className="flex flex-col bg-gray-100 p-8 dark:bg-secondary dark:text-white">
+      <div className="flex items-center ">
         <p className="w-14 h-5 mx-2 flex bg-gradient-to-l from-black to-gray-700 "></p>
         <h3 className="text-2xl text-black font-bold inline-block ">
           J'ai travailler avec
