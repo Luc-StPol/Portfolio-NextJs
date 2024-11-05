@@ -51,7 +51,7 @@ export default function Status() {
       if (e.dir === 'Left' && isActive < 3) {
         setActive(isActive + 1);
       }
-      if (e.dir === 'Right' && isActive > 0) {
+      if (e.dir === 'Right' && isActive > 1) {
         setActive(isActive - 1);
       }
     },
@@ -60,7 +60,7 @@ export default function Status() {
   return (
     <Section className="max-lg:flex-col items-start">
       <h2
-        className="text-3xl font-bold border-t-4 inline-block border-black mb-12"
+        className="text-3xl font-bold border-t-4 inline-block border-black mb-12 dark:text-primary"
         id="projects"
       >
         Mes Projets
@@ -69,8 +69,8 @@ export default function Status() {
         {projects.map((project: Project, i) => (
           <Dialog key={i}>
             <DialogTrigger onClick={() => setActive(1)}>
-              <Card className="hover:bg-slate-200 w-96 h-96">
-                <CardHeader>
+              <Card className="dark:bg-secondary dark:hover:bg-slate-600 hover:bg-slate-200 w-96 h-96">
+                <CardHeader className="">
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.subtitle}</CardDescription>
                 </CardHeader>

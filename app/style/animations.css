@@ -1,0 +1,50 @@
+.barContent {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.barStarter {
+  position: relative;
+  z-index: 1;
+}
+
+/* Style pour la barre */
+.barre {
+  position: absolute;
+  top: 34%;
+  left: 0;
+  right: 5px;
+  width: 410px;
+  height: 4px;
+  background-color: #ccc;
+  margin: 50px auto;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Style pour le point noir */
+.point {
+  position: absolute;
+  top: -6px;
+  width: 12px;
+  height: 18px;
+  background-color: black;
+  border-radius: 50%;
+  animation: va-et-vient 4s ease-in-out infinite;
+}
+
+/* Animation du va-et-vient */
+@keyframes va-et-vient {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  98% {
+    left: 0;
+  }
+}

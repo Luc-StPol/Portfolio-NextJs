@@ -4,7 +4,7 @@
   height: 243px;
   margin: 50px auto;
   border-radius: 50%;
-  border: 1px dashed #000;
+  border: 1px dashed var(--circleBorderColor);
   /* Cercle en pointillé avec bordure noire */
   margin: 50px auto;
   box-sizing: border-box;
@@ -46,7 +46,7 @@
   border-radius: 50%;
   background-color: white;
   padding: 5px;
-  box-shadow: 0 0 5px 3px gray;
+  box-shadow: 0 0 5px 3px var(--boxShadowColor);
 }
 
 .icon .tooltip {
@@ -55,7 +55,6 @@
   /* Distance au-dessus de l'icône */
   left: 50%;
   transform: rotate(calc(-1 * (var(--i) * 360deg / var(--total))));
-  color: black;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 12px;

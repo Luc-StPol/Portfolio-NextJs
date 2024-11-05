@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import '../style/animations.css';
 
 interface MyComponentProps {
   skills: string[];
@@ -11,7 +12,7 @@ export default function SkillsArray(props: MyComponentProps) {
   return (
     <ul className="flex max-md:flex-col">
       {skills.map((skill, i) => (
-        <li key={i} className="flex items-center m-4 ">
+        <li key={i} className="flex items-center m-4">
           <Image
             src={props.icons[i]}
             alt="icon"
