@@ -1,7 +1,7 @@
 'use client';
 
 import DarkModeProvider from './context/DarkModeContext';
-import App from './app';
+import App from './App';
 
 export default function Home() {
   return (

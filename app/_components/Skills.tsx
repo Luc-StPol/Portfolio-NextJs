@@ -1,8 +1,7 @@
 import Image from 'next/image';
 
 import styles from '../style/cercleIcon.module.css';
-import { useContext } from 'react';
-import { DarkModeContext } from '../context/DarkModeContext';
+import { useDarkModeContext } from '../context/DarkModeContext';
 
 interface Skill {
   svg: string;
@@ -16,7 +15,7 @@ interface propsSkill {
 export default function Skills(props: propsSkill) {
   const icons = props.skill;
 
-  const { darkMode } = useContext(DarkModeContext);
+  const { darkMode } = useDarkModeContext();
   const circleBorderColor = darkMode ? 'white' : 'black';
   const boxShadowColor = darkMode ? 'black' : 'grey';
 

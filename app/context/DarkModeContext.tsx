@@ -1,8 +1,13 @@
-import { createContext, useState } from 'react';
+import { createContext, useState, PropsWithChildren, useContext } from 'react';
 
-export const DarkModeContext = createContext();
+interface ThemeContextType {
+  darkMode: boolean;
+  toggleDarkMode: () => void;
+}
 
-export default function DarkModeProvider({ children }) {
+export const DarkModeContext = createContext<ThemeContextType | null>(null);
+
+export default function DarkModeProvider({ children }: PropsWithChildren) {
   const [darkMode, setDarkMode] = useState(false);
 
   function toggleDarkMode() {
@@ -15,3 +20,13 @@ export default function DarkModeProvider({ children }) {
     </DarkModeContext.Provider>
   );
 }
+
+export const useDarkModeContext = () => {
+  const context = useContext(DarkModeContext);
+  if (context === null) {
+    throw new Error(
+      "useUserContext doit être utilisé au sein d'un UserContextProvider"
+    );
+  }
+  return context;
+};

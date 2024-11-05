@@ -5,11 +5,10 @@ import SkillSection from './_components/SkillsSection';
 import SkillsWip from './_components/SkillsWip';
 import Spacing from './_components/Spacing';
 import Status from './_components/Status';
-import { useContext } from 'react';
-import { DarkModeContext } from './context/DarkModeContext';
+import { useDarkModeContext } from './context/DarkModeContext';
 
 export default function App() {
-  const { darkMode } = useContext(DarkModeContext);
+  const { darkMode } = useDarkModeContext();
   return (
     <main
       className={`font-sans h-full bg-background text-foreground ${darkMode && 'dark'}`}

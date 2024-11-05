@@ -1,6 +1,6 @@
 import { ComponentPropsWithRef } from 'react';
 
-export default function DarModeIcon(props: ComponentPropsWithRef) {
+export default function DarkModeIcon(props: ComponentPropsWithRef<'svg'>) {
   return (
     <svg width="30px" height="30px" viewBox="0 0 100 125">
       <title>Dark Mode</title>

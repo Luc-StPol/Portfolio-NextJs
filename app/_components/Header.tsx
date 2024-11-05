@@ -1,11 +1,10 @@
 'use client';
 
-import { useContext } from 'react';
-import { DarkModeContext } from '../context/DarkModeContext';
-import DarModeIcon from './icons/DarkModeIcon';
+import { useDarkModeContext } from '../context/DarkModeContext';
+import DarkModeIcon from './icons/DarkModeIcon';
 
 export default function Header() {
-  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const { darkMode, toggleDarkMode } = useDarkModeContext();
   console.log(darkMode);
 
   return (
@@ -28,7 +27,7 @@ export default function Header() {
         </li>
         <li>
           <button onClick={toggleDarkMode} className="ml-5">
-            <DarModeIcon color={darkMode ? 'white' : 'black'} />
+            <DarkModeIcon color={darkMode ? 'white' : 'black'} />
           </button>
         </li>
       </ul>
