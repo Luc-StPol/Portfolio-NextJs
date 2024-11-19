@@ -69,10 +69,10 @@
     "stacks": ["React"],
     "stacksIcons": ["https://cdn.svgporn.com/logos/react.svg"],
     "picture": [
-      "/images/projectScreen/Kasa/Kasa1.webp",
-      "/images/projectScreen/Kasa/Kasa1.webp",
-      "/images/projectScreen/Kasa/Kasa2.png",
-      "/images/projectScreen/Kasa/Kasa3.png"
+      "/images/projectScreen/Kasa/kasa1.webp",
+      "/images/projectScreen/Kasa/kasa1.webp",
+      "/images/projectScreen/Kasa/kasa2.webp",
+      "/images/projectScreen/Kasa/kasa3.webp"
     ],
     "gitHubLink": "https://github.com/Luc-StPol/React-Projet-5.git",
     "skills": [
