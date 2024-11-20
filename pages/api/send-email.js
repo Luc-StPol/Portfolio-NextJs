@@ -10,9 +10,9 @@ export default async function handler(req, res) {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
-      // tls: {
-      //   rejectUnauthorized: false, // À désactiver
-      // },
+      tls: {
+        rejectUnauthorized: false, // À désactiver
+      },
     });
     transporter.verify(function (error, success) {
       if (error) {
