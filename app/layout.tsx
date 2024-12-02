@@ -3,6 +3,7 @@ import { cn } from '@/lib/utils';
 import './globals.css';
 import { GeistSans } from 'geist/font/sans';
 import { Anek_Telugu } from 'next/font/google';
+import { Toaster } from 'sonner';
 
 const AnekTelugu = Anek_Telugu({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className={cn(GeistSans.variable, AnekTelugu.variable)}>
         {children}
+        <Toaster />
       </body>
     </html>
   );

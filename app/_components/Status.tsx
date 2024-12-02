@@ -119,7 +119,7 @@ export default function Status() {
                     />
                   </div>
                 </div>
-                <p>{project.concept}</p>
+                <p className="mx-2">{project.concept}</p>
               </div>
 
               <div className={isActive === 2 ? 'active' : 'hidden'}>
@@ -133,7 +133,7 @@ export default function Status() {
                     />
                   </div>
                 </div>
-                <p>{project.utilite} </p>
+                <p className="mx-2">{project.utilite} </p>
               </div>
 
               <div className={isActive === 3 ? 'active' : 'hidden'}>

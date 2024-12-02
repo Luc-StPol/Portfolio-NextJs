@@ -4,6 +4,7 @@ import Section from './Section';
 import mailIcon from '../assets/icons/mail-icon.svg';
 import Image from 'next/image';
 import { useState } from 'react';
+import { toast } from 'sonner';
 
 interface UserData {
   email: string;
@@ -35,8 +36,10 @@ export default function Contact() {
         email: '',
         message: '',
       });
+      toast.success('Message envoyé !');
     } else {
       setStatus("Échec de l'envoi de l'email.");
+      toast.error("Votre message n'a pas pu être envoyé");
     }
   }
 
@@ -113,7 +116,10 @@ export default function Contact() {
             }}
           />
           <div className="flex justify-center">
-            <Button className="bg-white text-black" type="submit">
+            <Button
+              className="bg-white text-black hover:bg-slate-300"
+              type="submit"
+            >
               {' '}
               Envoyer
             </Button>
