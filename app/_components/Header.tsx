@@ -8,10 +8,10 @@ export default function Header() {
   console.log(darkMode);
 
   return (
-    <header className="sticky top-0 py-4 flex justify-between pt-4 border-b-2 bg-background px-12 z-50">
+    <header className="sticky top-0 py-4 flex justify-between pt-4 border-b-2 bg-background md:px-12 z-50">
       <a href="">
-        <h1 className="text-lg font-bold text-secondary dark:text-primary max-md:hidden">
-          LucSP.com
+        <h1 className="text-lg font-bold text-dark dark:text-primary max-md:hidden">
+          LucSP.fr
         </h1>
       </a>
       <div className="flex-1" />

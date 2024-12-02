@@ -1,24 +1,42 @@
 [
   {
-    "title": "Booki",
-    "subtitle": "Trouvez votre hébergement pour des vacances de rêve",
-    "concept": "Booki est un site fictif de réservation de logements et d'activités touristiques, conçu pour permettre aux utilisateurs de trouver facilement des hébergements et des activités dans une destination donnée. Le concept repose sur une interface claire et intuitive, où les utilisateurs peuvent naviguer à travers différentes offres, filtrer les résultats selon leurs préférences (prix, type d'hébergement, etc.), et accéder aux détails des hébergements et activités avant de faire une réservation.",
-    "utilite": "L'utilité du site réside dans sa simplicité d'usage pour les voyageurs qui souhaitent organiser un séjour complet en un seul endroit, avec des options adaptées à leurs besoins et un processus de recherche rapide et efficace.",
-    "stacks": ["HTML", "CSS"],
-    "stacksIcons": [
-      "https://cdn.svgporn.com/logos/html-5.svg",
-      "https://cdn.svgporn.com/logos/css-3.svg"
-    ],
+    "title": "Kasa",
+    "subtitle": "",
+    "concept": "Kasa est un site de location de logements entre particuliers, similaire à des plateformes comme Airbnb. Il permet aux utilisateurs de réserver des hébergements variés (appartements, maisons, etc.) dans différentes villes. ",
+    "utilite": " Le site propose des informations détaillées sur chaque logement, avec des photos et des descriptions, et offre la possibilité de filtrer les résultats en fonction de critères spécifiques comme la localisation ou les équipements disponibles.",
+    "stacks": ["React"],
+    "stacksIcons": ["https://cdn.svgporn.com/logos/react.svg"],
     "picture": [
-      "/images/projectScreen/Booki/mainPage.png",
-      "/images/projectScreen/Booki/MainResponsive.png",
-      "/images/projectScreen/Booki/Hebergement.png",
-      "/images/projectScreen/Booki/Activite.png"
+      "/images/projectScreen/Kasa/kasa1.webp",
+      "/images/projectScreen/Kasa/kasa1.webp",
+      "/images/projectScreen/Kasa/kasa2.webp",
+      "/images/projectScreen/Kasa/kasa3.webp"
     ],
-    "gitHubLink": "https://github.com/Luc-StPol/Booki-Project2.git",
+    "gitHubLink": "https://github.com/Luc-StPol/React-Projet-5.git",
     "skills": [
-      "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-      "Implémenter une interface responsive avec HTML et CSS"
+      "Configurer la navigation entre les pages de l'application avec React Router",
+      "Initialiser une application avec Create React App",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React"
+    ]
+  },
+  {
+    "title": "Mon vieux grimoire",
+    "subtitle": "",
+    "concept": "Mon Vieux Grimoire est un site fictif dédié aux amateurs de littérature. Il propose des recommandations de livres, basées sur les goûts littéraires des utilisateurs. Ces derniers peuvent explorer différentes catégories de livres, laisser des avis, et trouver de nouvelles suggestions en fonction de leurs lectures précédentes.",
+    "utilite": "Mon vieux Grimoire permet d’aider les lecteurs à découvrir des livres adaptés à leurs préférences et d'encourager l'échange d'opinions entre passionnés de lecture.",
+    "stacks": ["NodeJs"],
+    "stacksIcons": ["https://cdn.svgporn.com/logos/nodejs-icon.svg"],
+    "picture": [
+      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire1.png",
+      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire3.png",
+      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire4.png",
+      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire2.png"
+    ],
+    "gitHubLink": "https://github.com/Luc-StPol/Backend-P7.git",
+    "skills": [
+      "Implémenter un modèle logique de données conformément à la réglementation",
+      "Mettre en œuvre des opérations CRUD de manière sécurisée",
+      "Stocker des données de manière sécurisée"
     ]
   },
   {
@@ -61,44 +79,26 @@
       "Rédiger un cahier de recette pour tester un site"
     ]
   },
-  {
-    "title": "Kasa",
-    "subtitle": "",
-    "concept": "Kasa est un site de location de logements entre particuliers, similaire à des plateformes comme Airbnb. Il permet aux utilisateurs de réserver des hébergements variés (appartements, maisons, etc.) dans différentes villes. ",
-    "utilite": " Le site propose des informations détaillées sur chaque logement, avec des photos et des descriptions, et offre la possibilité de filtrer les résultats en fonction de critères spécifiques comme la localisation ou les équipements disponibles.",
-    "stacks": ["React"],
-    "stacksIcons": ["https://cdn.svgporn.com/logos/react.svg"],
-    "picture": [
-      "/images/projectScreen/Kasa/kasa1.webp",
-      "/images/projectScreen/Kasa/kasa1.webp",
-      "/images/projectScreen/Kasa/kasa2.webp",
-      "/images/projectScreen/Kasa/kasa3.webp"
+{
+    "title": "Booki",
+    "subtitle": "Trouvez votre hébergement pour des vacances de rêve",
+    "concept": "Booki est un site fictif de réservation de logements et d'activités touristiques, conçu pour permettre aux utilisateurs de trouver facilement des hébergements et des activités dans une destination donnée. Le concept repose sur une interface claire et intuitive, où les utilisateurs peuvent naviguer à travers différentes offres, filtrer les résultats selon leurs préférences (prix, type d'hébergement, etc.), et accéder aux détails des hébergements et activités avant de faire une réservation.",
+    "utilite": "L'utilité du site réside dans sa simplicité d'usage pour les voyageurs qui souhaitent organiser un séjour complet en un seul endroit, avec des options adaptées à leurs besoins et un processus de recherche rapide et efficace.",
+    "stacks": ["HTML", "CSS"],
+    "stacksIcons": [
+      "https://cdn.svgporn.com/logos/html-5.svg",
+      "https://cdn.svgporn.com/logos/css-3.svg"
     ],
-    "gitHubLink": "https://github.com/Luc-StPol/React-Projet-5.git",
-    "skills": [
-      "Configurer la navigation entre les pages de l'application avec React Router",
-      "Initialiser une application avec Create React App",
-      "Développer des éléments de l'interface d'un site web grâce à des composants React"
-    ]
-  },
-  {
-    "title": "Mon vieux grimoire",
-    "subtitle": "",
-    "concept": "Mon Vieux Grimoire est un site fictif dédié aux amateurs de littérature. Il propose des recommandations de livres, basées sur les goûts littéraires des utilisateurs. Ces derniers peuvent explorer différentes catégories de livres, laisser des avis, et trouver de nouvelles suggestions en fonction de leurs lectures précédentes.",
-    "utilite": "Mon vieux Grimoire permet d’aider les lecteurs à découvrir des livres adaptés à leurs préférences et d'encourager l'échange d'opinions entre passionnés de lecture.",
-    "stacks": ["NodeJs"],
-    "stacksIcons": ["https://cdn.svgporn.com/logos/nodejs-icon.svg"],
     "picture": [
-      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire1.png",
-      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire3.png",
-      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire4.png",
-      "/images/projectScreen/MonVieuxGrimoire/MonVieuxGrimoire2.png"
+      "/images/projectScreen/Booki/mainPage.png",
+      "/images/projectScreen/Booki/MainResponsive.png",
+      "/images/projectScreen/Booki/Hebergement.png",
+      "/images/projectScreen/Booki/Activite.png"
     ],
-    "gitHubLink": "https://github.com/Luc-StPol/Backend-P7.git",
+    "gitHubLink": "https://github.com/Luc-StPol/Booki-Project2.git",
     "skills": [
-      "Implémenter un modèle logique de données conformément à la réglementation",
-      "Mettre en œuvre des opérations CRUD de manière sécurisée",
-      "Stocker des données de manière sécurisée"
+      "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+      "Implémenter une interface responsive avec HTML et CSS"
     ]
   }
 ]
