@@ -8,6 +8,14 @@
     {
       "svg": "https://cdn.svgporn.com/logos/bootstrap.svg",
       "stackName": "Bootstrap"
+    },
+    {
+      "svg": "https://cdn.svgporn.com/logos/nextjs-icon.svg",
+      "stackName": "NextJs"
+    },
+    {
+      "svg": "https://cdn.svgporn.com/logos/tailwindcss-icon.svg",
+      "stackName": "TailwindCss"
     }
   ],
 
@@ -24,15 +32,16 @@
       "svg": "https://cdn.svgporn.com/logos/express.svg",
       "stackName": "Express"
     },
-    { "svg": "https://cdn.svgporn.com/logos/php.svg", "stackName": "Php" }
+    { "svg": "https://cdn.svgporn.com/logos/php.svg", "stackName": "Php" },
+    { "svg": "https://cdn.svgporn.com/logos/mysql.svg", "stackName": "MySQL" }
   ],
 
-  "wip": ["Next.Js", "tailwindcss", "MySQL", "Github"],
+  "wip": ["Github", "TypeScript", "NextAuthJs", "Socket.Io"],
 
   "wipSkillIcon": [
-    "https://cdn.svgporn.com/logos/nextjs-icon.svg",
-    "https://cdn.svgporn.com/logos/tailwindcss-icon.svg",
-    "https://cdn.svgporn.com/logos/mysql.svg",
-    "https://cdn.svgporn.com/logos/github-icon.svg"
+    "https://cdn.svgporn.com/logos/github-icon.svg",
+    "https://cdn.svgporn.com/logos/typescript-icon.svg",
+    "https://next-auth.js.org/img/logo/logo-xs.png",
+    "https://cdn.svgporn.com/logos/socket.io.svg"
   ]
 }
