@@ -13,11 +13,11 @@ export default function Hero() {
           mesure.
         </p>
         <p className="mt-2">
-          Actuellement en train de finaliser un diplôme de Développeur Web
-          JavaScript , j&apos;ai déjà acquis une solide expérience en React,
-          Node.js, et aussi PHP, que j&apos;utilise pour donner vie à mes idées.
-          J&apos;ai réalisé quelques projets durant ma formation, que je vous
-          invite à découvrir juste en dessous.
+          Ayant finaliser un diplôme de Développeur Web , j&apos;ai déjà acquis
+          une solide expérience en React, Node.js, et aussi PHP, que
+          j&apos;utilise pour donner vie à mes idées. J&apos;ai réalisé quelques
+          projets durant ma formation, que je vous invite à découvrir juste en
+          dessous.
         </p>
       </div>
       <div className="flex-1 ml-12 ">
