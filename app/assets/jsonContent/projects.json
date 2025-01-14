@@ -1,5 +1,28 @@
 [
   {
+    
+    "title": "Soirée TV",
+    "subtitle": "Partagez et décrouvrez de nouveaux films ! (W.I.P.)",
+    "concept": "Soirée TV est un site web en développement qui offre actuellement à ses utilisateurs la possibilité de rechercher des films, de les ajouter à leur watchlist ou de noter ceux qu'ils ont déjà vus. Il permet également de rechercher d'autres utilisateurs, de les suivre ou de les ajouter en amis, et de découvrir leurs listes.",
+    "utilite": "L'objectif du site est de permettre aux utilisateurs de découvrir de nouveaux films grâce aux recommandations d'autres membres partageant des affinités similaires. Avec un système de fil d'actualité et de chat, il offrira un espace d'échange autour de cette passion commune. Le site inclura également un chat de groupe, permettant de créer et gérer des watchlists collaboratives afin d'organiser facilement sa prochaine soirée TV entre amis ! ",
+    "stacks": ["NextJs","TypeScript","NextAuthJs","MySQL"],
+    "stacksIcons": ["https://cdn.svgporn.com/logos/nextjs-icon.svg","https://cdn.svgporn.com/logos/typescript-icon.svg","https://next-auth.js.org/img/logo/logo-xs.png","https://cdn.svgporn.com/logos/mysql.svg"],
+    "picture": [
+      "/images/projectScreen/SoireeTv/loginPage.png",
+      "/images/projectScreen/SoireeTv/moviePage.png",
+      "/images/projectScreen/SoireeTv/profilPage.png",
+      "/images/projectScreen/SoireeTv/watchlist.png"
+    ],
+    "gitHubLink": "https://github.com/Luc-StPol/SoireTV_2.0.git",
+    "skills": [
+      "Créer un système d'authentification sécurisée avec NextAuthJs",
+      "Développer une API rapidement grâce Nextjs",
+      "Structurer et optimiser un projet NextJs",
+      "Communiquer avec une base de donné SQL"
+    ]
+  },
+  {
+    
     "title": "Kasa",
     "subtitle": "",
     "concept": "Kasa est un site de location de logements entre particuliers, similaire à des plateformes comme Airbnb. Il permet aux utilisateurs de réserver des hébergements variés (appartements, maisons, etc.) dans différentes villes. ",
