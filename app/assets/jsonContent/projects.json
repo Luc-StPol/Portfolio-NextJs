@@ -1,12 +1,43 @@
 [
   {
-    
+    "title": "Drac'Ann",
+    "subtitle": "Plateforme e-commerce de produits artisanaux",
+    "concept": "Drac’Ann est une boutique artisanale en ligne dédiée aux passionnés de fantasy et univers médiévaux-fantastiques. Le site met en valeur une large sélection de créations uniques (bijoux, carnets, ceintures-corsets et articles artisanaux originaux) conçus pour accompagner aussi bien le quotidien que les grands événements ou festivals.",
+    "utilite": "Drac’Ann a été développé comme une plateforme e-commerce multilingue (FR/EN) avec une hiérarchie claire des catégories de produits, un système de chargement dynamique des meilleures ventes et des visuels immersifs pour chaque section. Le site intègre une navigation intuitive, des modules pour newsletter et filtres produits, ainsi que des pages légales (CGV, RGPD) bien structurées. L’ergonomie responsive assure une expérience cohérente sur desktop et mobile, tout en valorisant l’identité visuelle forte de la boutique de fantasy artisanale.",
+    "stacks": ["NextJs", "TypeScript", "NextAuthJs", "TailwindCss"],
+    "stacksIcons": [
+      "https://cdn.svgporn.com/logos/nextjs-icon.svg",
+      "https://cdn.svgporn.com/logos/typescript-icon.svg",
+      "https://next-auth.js.org/img/logo/logo-xs.png",
+      "https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
+    ],
+    "picture": [
+      "/images/projectScreen/Dracann/screen1.webp",
+      "/images/projectScreen/Dracann/screen3.webp",
+      "/images/projectScreen/Dracann/screen6.webp",
+      "/images/projectScreen/Dracann/screen2.webp"
+    ],
+    "websiteLink": "https://www.dracann.com",
+    "skills": [
+      "Conception et développement d’un site e-commerce complet",
+      "Structuration de l’information et UX/UI orientée conversion",
+      "Mise en place d’un site multilingue",
+      "Gestion et organisation de catalogues produits",
+      "Respect des bonnes pratiques web (accessibilité, pages légales, RGPD)"
+    ]
+  },
+  {
     "title": "Soirée TV",
     "subtitle": "Partagez et décrouvrez de nouveaux films ! (W.I.P.)",
     "concept": "Soirée TV est un site web en développement qui offre actuellement à ses utilisateurs la possibilité de rechercher des films, de les ajouter à leur watchlist ou de noter ceux qu'ils ont déjà vus. Il permet également de rechercher d'autres utilisateurs, de les suivre ou de les ajouter en amis, et de découvrir leurs listes.",
     "utilite": "L'objectif du site est de permettre aux utilisateurs de découvrir de nouveaux films grâce aux recommandations d'autres membres partageant des affinités similaires. Avec un système de fil d'actualité et de chat, il offrira un espace d'échange autour de cette passion commune. Le site inclura également un chat de groupe, permettant de créer et gérer des watchlists collaboratives afin d'organiser facilement sa prochaine soirée TV entre amis ! ",
-    "stacks": ["NextJs","TypeScript","NextAuthJs","MySQL"],
-    "stacksIcons": ["https://cdn.svgporn.com/logos/nextjs-icon.svg","https://cdn.svgporn.com/logos/typescript-icon.svg","https://next-auth.js.org/img/logo/logo-xs.png","https://cdn.svgporn.com/logos/mysql.svg"],
+    "stacks": ["NextJs", "TypeScript", "NextAuthJs", "MySQL"],
+    "stacksIcons": [
+      "https://cdn.svgporn.com/logos/nextjs-icon.svg",
+      "https://cdn.svgporn.com/logos/typescript-icon.svg",
+      "https://next-auth.js.org/img/logo/logo-xs.png",
+      "https://cdn.svgporn.com/logos/mysql.svg"
+    ],
     "picture": [
       "/images/projectScreen/SoireeTv/loginPage.png",
       "/images/projectScreen/SoireeTv/moviePage.png",
@@ -22,7 +53,6 @@
     ]
   },
   {
-    
     "title": "Kasa",
     "subtitle": "",
     "concept": "Kasa est un site de location de logements entre particuliers, similaire à des plateformes comme Airbnb. Il permet aux utilisateurs de réserver des hébergements variés (appartements, maisons, etc.) dans différentes villes. ",
@@ -100,28 +130,6 @@
       "Optimiser les performances d’un site web",
       "Débugger un site web grâce aux Chrome DevTools",
       "Rédiger un cahier de recette pour tester un site"
-    ]
-  },
-  {
-    "title": "Booki",
-    "subtitle": "Trouvez votre hébergement pour des vacances de rêve",
-    "concept": "Booki est un site fictif de réservation de logements et d'activités touristiques, conçu pour permettre aux utilisateurs de trouver facilement des hébergements et des activités dans une destination donnée. Le concept repose sur une interface claire et intuitive, où les utilisateurs peuvent naviguer à travers différentes offres, filtrer les résultats selon leurs préférences (prix, type d'hébergement, etc.), et accéder aux détails des hébergements et activités avant de faire une réservation.",
-    "utilite": "L'utilité du site réside dans sa simplicité d'usage pour les voyageurs qui souhaitent organiser un séjour complet en un seul endroit, avec des options adaptées à leurs besoins et un processus de recherche rapide et efficace.",
-    "stacks": ["HTML", "CSS"],
-    "stacksIcons": [
-      "https://cdn.svgporn.com/logos/html-5.svg",
-      "https://cdn.svgporn.com/logos/css-3.svg"
-    ],
-    "picture": [
-      "/images/projectScreen/Booki/mainPage.png",
-      "/images/projectScreen/Booki/MainResponsive.png",
-      "/images/projectScreen/Booki/Hebergement.png",
-      "/images/projectScreen/Booki/Activite.png"
-    ],
-    "gitHubLink": "https://github.com/Luc-StPol/Booki-Project2.git",
-    "skills": [
-      "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-      "Implémenter une interface responsive avec HTML et CSS"
     ]
   }
 ]

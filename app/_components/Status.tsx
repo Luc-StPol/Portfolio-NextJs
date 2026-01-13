@@ -38,7 +38,8 @@ interface Project {
   stacks: string[];
   stacksIcons: string[];
   picture: string[];
-  gitHubLink: string;
+  gitHubLink?: string;
+  websiteLink?: string;
   skills: string[];
 }
 
@@ -96,6 +97,19 @@ export default function Status() {
                 </DialogTitle>
                 <DialogDescription className="text-center">
                   {project.subtitle}
+                  {/* WebSite link */}
+                  {project.websiteLink ? (
+                    <div>
+                      <a
+                        href={project.websiteLink}
+                        className="flex items-center justify-center mt-6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p className="text-blue-400">{project.websiteLink}</p>
+                      </a>
+                    </div>
+                  ) : null}
                 </DialogDescription>
               </DialogHeader>
 
@@ -153,23 +167,25 @@ export default function Status() {
                 </ul>
 
                 {/* Github link */}
-                <div className="mt-20">
-                  <a
-                    href={project.gitHubLink}
-                    className="flex items-center justify-center mt-6"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="https://cdn.svgporn.com/logos/github-icon.svg"
-                      alt="icon github"
-                      width={50}
-                      height={50}
-                      className="mr-3"
-                    />
-                    <p className="text-blue-400">Github du projet</p>
-                  </a>
-                </div>
+                {project.gitHubLink ? (
+                  <div className="mt-20">
+                    <a
+                      href={project.gitHubLink}
+                      className="flex items-center justify-center mt-6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="https://cdn.svgporn.com/logos/github-icon.svg"
+                        alt="icon github"
+                        width={50}
+                        height={50}
+                        className="mr-3"
+                      />
+                      <p className="text-blue-400">Github du projet</p>
+                    </a>
+                  </div>
+                ) : null}
               </div>
               <Pagination>
                 <PaginationContent>
